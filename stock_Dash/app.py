@@ -24,10 +24,6 @@ import os
 import json
 import base64
 
-from twitter import twitter_scrape
-
-twitter_scrape()
-
 sys.path.insert(0, os.path.realpath(os.path.dirname(__file__)))
 os.chdir(os.path.realpath(os.path.dirname(__file__)))
 
